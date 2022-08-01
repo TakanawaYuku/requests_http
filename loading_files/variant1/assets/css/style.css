@@ -1,0 +1,461 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+body {
+    width: 1920px;
+    font-family: "Lato", sans-serif;
+    font-size: 1.8rem;
+    background: #E5E5E5;
+
+}
+
+
+ul,
+li {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.btn {
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 2rem 5rem;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container_box {
+    width: 1410px;
+    margin: 0 auto;
+}
+
+
+/*Header*/
+
+
+.header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    height: 95px;
+}
+
+.topbar {
+    display: flex;
+}
+
+
+.logo {
+    margin-left: 27.4rem;
+    margin-right: 17.2rem;
+}
+
+.navbar {
+    display: flex;
+    color: #292929;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.navbar_link {
+    margin-right: 7.2rem;
+    border-bottom: 2px solid transparent;
+    color: #b31717;
+}
+
+
+
+.navbar_link a:hover {
+
+    color: #b515aa;
+    border-bottom: 2px solid #b515aa;
+}
+
+.navbar_link:last-child {
+    margin-right: 0;
+}
+
+
+.sign_container {
+    width: 290px;
+    margin-left: 15rem;
+    margin-right: 17rem;
+}
+
+.sign_text {
+    font-size: 2rem;
+    color: #000000;
+    margin-right: 4rem;
+}
+
+.sign_container .btn:hover {
+    background-color: #e65edc;
+    color: #fff;
+}
+
+
+/*banner*/
+
+
+.banner {
+    background-image: url(../img/bg/BG.jpg);
+    height: 895px;
+}
+
+
+.banner_box {
+    position: absolute;
+    width: 440px;
+    left: 27.5rem;
+    top: 33rem;
+}
+
+
+.banner_title {
+    font-size: 6.5rem;
+    color: #01996D;
+    margin-bottom: 3rem;
+}
+
+.banner_text {
+    color: #484848;
+    font-size: 2rem;
+    margin-bottom: 7rem;
+}
+
+.banner .btn:hover {
+    background-color: #e65edc;
+    color: #fff;
+}
+
+
+
+/*Info work*/
+
+.info_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.info_sub_title {
+    font-size: 2rem;
+    color: #424242;
+    font-weight: 600;
+}
+
+.info_title {
+    margin-top: 1rem;
+    width: 585px;
+    font-size: 5rem;
+    color: #01996D;
+
+}
+
+.info_text {
+    width: 630px;
+    margin-top: 7rem;
+}
+
+
+.info_description {
+    font-size: 2rem;
+    color: #424242;
+}
+
+
+/*work service*/
+
+.work_container {
+    display: flex;
+}
+
+
+.work_box_one {
+    width: 390px;
+    margin-top: 13rem;
+}
+
+.title_service {
+    position: relative;
+    width: 269px;
+    margin-bottom: 5.5rem;
+}
+
+.work_box_title_box_one {
+    position: absolute;
+    top: 5.5rem;
+    right: 2.5rem;
+}
+
+
+.work_text {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #424242;
+    margin-bottom: 6rem;
+}
+
+.work_box_two {
+    width: 392px;
+    margin: 37rem 6rem 0 9rem;
+}
+
+
+
+.work_box_title_box_two {
+    position: absolute;
+    top: 5.5rem;
+    left: 7rem;
+    width: 313px;
+    height: 45px;
+}
+
+
+.work_box_three {
+    width: 441px;
+    margin-top: 15rem;
+}
+
+.work_box_title_box_three {
+    position: absolute;
+    top: 5.5rem;
+    left: 12rem;
+}
+
+/*video_conatiner*/
+
+
+.video_container {
+    width: 100%;
+    height: 922px;
+    margin-top: 5rem;
+    background: #245852;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.video_title {
+    font-weight: bold;
+    font-size: 5rem;
+    margin: 0 3rem 3rem 20rem;
+}
+
+.video_text {
+    font-size: 2rem;
+    margin: 3rem 6rem 7rem 20rem;
+}
+
+
+
+.video_btn {
+    margin: 3rem 0rem 0rem 20rem;
+}
+
+
+.video_container .btn:hover {
+    background-color: #e65edc;
+    color: #fff;
+}
+
+
+.video_box_img {
+    margin: 0 20rem 0 10rem;
+}
+
+/*Product*/
+
+
+.our_product_container {
+    width: 1370px;
+    height: 650px;
+    margin: 12rem 27.5rem 16.5rem;
+    display: flex;
+}
+
+.capture {
+    margin-right: 8.5rem;
+    position: relative;
+}
+
+
+.card {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    bottom: 0;
+}
+
+
+.card_text {
+    font-weight: 600;
+    color: #000000;
+    font-size: 1.45rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+.line_card {
+    width: 110px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.img_card {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card_name {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.card_title {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #000;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.card_benefits {
+    margin-top: 1.7rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.card_benefits>li {
+    float: left;
+    padding-bottom: 1.5rem;
+}
+
+
+
+.product_subtitle {
+    color: #424242;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+.product_title {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #01996D;
+}
+
+
+.product_text_par {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    color: #484848;
+
+}
+
+.product_btn:hover {
+    background-color: #e65edc;
+    color: #fff;
+}
+
+
+/*Footer*/
+
+
+.footer {
+    height: 654px;
+    background-color: #245852;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.footer_title {
+    font-size: 4rem;
+    margin-bottom: 6rem;
+    margin-left: 4rem;
+
+}
+
+.nav_footer a {
+    color: #fff;
+}
+
+
+.nav_footer a:hover {
+    color: #e65edc;
+}
+
+.nav_footer_link {
+    padding-right: 17rem;
+    padding-bottom: 6rem;
+    text-align: left;
+}
+
+.nav_footer_link:last-child {
+    padding-bottom: 0;
+}
+
+
+.social_img {
+    padding-right: 4rem;
+}
+
+.social_img:last-child {
+    padding-right: 4rem;
+}
